@@ -1,14 +1,14 @@
+"use client"
+
 import Head from 'next/head';
+import { LatLngExpression } from 'leaflet';
 
-import Layout from '@components/Layout';
-import Section from '@components/Section';
-import Container from '@components/Container';
-import Map from '@components/Map';
-import Button from '@components/Button';
+import Section from "../components/Section";
+import Container from "../components/Container";
+import Layout from "../components/Layout";
+import Map from "../components/Map";
 
-import styles from '@styles/Home.module.scss';
-
-const DEFAULT_CENTER = [38.907132, -77.036546]
+const DEFAULT_CENTER: LatLngExpression = [38.907132, -77.036546]
 
 export default function Home() {
   return (
@@ -20,13 +20,13 @@ export default function Home() {
       </Head>
 
       <Section>
-        <Container>
-          <h1 className={styles.title}>
+        <Container center={[]} zoom={0}>
+          <h1>
             Next.js Leaflet Starter
           </h1>
 
-          <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
-            {({ TileLayer, Marker, Popup }) => (
+          <Map width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
+            {({ TileLayer, Marker, Popup }: typeof import('react-leaflet') & typeof import('leaflet')) => (
               <>
                 <TileLayer
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -41,12 +41,8 @@ export default function Home() {
             )}
           </Map>
 
-          <p className={styles.description}>
-            <code className={styles.code}>npx create-next-app -e https://github.com/colbyfayock/next-leaflet-starter</code>
-          </p>
-
-          <p className={styles.view}>
-            <Button href="https://github.com/colbyfayock/next-leaflet-starter">Vew on GitHub</Button>
+          <p>
+            Based on the <a href="https://github.com/colbyfayock/next-leaflet-starter">NextJS Leaflet Starter Project</a>, but with NextJS v15 and TypeScript.
           </p>
         </Container>
       </Section>

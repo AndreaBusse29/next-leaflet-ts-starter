@@ -1,8 +1,14 @@
-import { forwardRef } from 'react';
+import {forwardRef, Ref} from 'react';
 
 import styles from './Section.module.scss';
 
-const Section = forwardRef(function Section(props, ref) {
+interface SectionProps {
+  children: React.ReactNode;
+  className?: string;
+  backgroundColor?: string;
+}
+
+const Section = forwardRef(function Section(props: SectionProps, ref: Ref<HTMLElement>) {
   const { children, className, backgroundColor, ...rest } = props;
 
   let sectionClassName = styles.section;

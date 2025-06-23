@@ -1,7 +1,15 @@
+import React from 'react';
 import Link from 'next/link';
 import styles from './Button.module.scss';
 
-const Button = ({children, href, className, ...rest}) => {
+interface ButtonProps {
+  children: React.ReactNode;
+  href?: string;
+  className?: string;
+  [key: string]: any;
+}
+
+const Button = ({children, href, className, ...rest}: ButtonProps) => {
   let buttonClassName = styles.button;
 
   if (className) {

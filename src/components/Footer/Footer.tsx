@@ -1,5 +1,4 @@
-import Container from '@components/Container';
-
+import Container from '../Container';
 import styles from './Footer.module.scss';
 
 const Footer = ({ ...rest }) => {

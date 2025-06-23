@@ -18,7 +18,7 @@ Jumpstart your new Next.js mapping project with Leaflet!
 ### Quick Start
 
 ```
-npx create-next-app -e https://github.com/colbyfayock/next-leaflet-starter
+npx create-next-app -e https://github.com/AndreaBusse29/next-leaflet-ts-starter
 ```
 
 ### Running the Project
@@ -30,4 +30,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.

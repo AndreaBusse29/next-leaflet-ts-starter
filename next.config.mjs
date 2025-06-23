@@ -1,7 +1,5 @@
-const path = require('path');
-const CopyPlugin = require('copy-webpack-plugin');
-
-/** @type {import('next').NextConfig} */
+import path from 'path';
+import CopyPlugin from "copy-webpack-plugin";
 
 const nextConfig = {
   reactStrictMode: true,
@@ -19,5 +17,3 @@ const nextConfig = {
     return config
   }
 }
-
-module.exports = nextConfig;
