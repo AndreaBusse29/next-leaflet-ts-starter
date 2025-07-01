@@ -12,10 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/next-leaflet-starter"
-  },
-  "bugs": {
-    "url": "https://github.com/colbyfayock/next-leaflet-starter/issues"
+    "url": "https://github.com/AndreaBusse29/next-leaflet-ts-starter"
   },
   "dependencies": {
     "copy-webpack-plugin": "^11.0.0",
@@ -27,10 +24,10 @@
     "react-leaflet": "5.0.0",
     "sass": "^1.69.5",
     "source-map-loader": "^5.0.0",
-    "ts-loader": "^9.5.2",
-    "typescript": "^5.8.3"
+    "ts-loader": "^9.5.2"
   },
   "devDependencies": {
+    "typescript": "^5.8.3",
     "@types/leaflet": "^1.9.18",
     "@types/react": "19.1.8"
   }
