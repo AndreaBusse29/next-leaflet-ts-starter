@@ -8,7 +8,7 @@ import Container from "../components/Container";
 import Layout from "../components/Layout";
 import Map from "../components/Map";
 
-const DEFAULT_CENTER: LatLngExpression = [38.907132, -77.036546]
+const DEFAULT_CENTER: LatLngExpression = [51.577446927823445, 4.805920557485861]
 
 export default function Home() {
   return (
@@ -34,7 +34,9 @@ export default function Home() {
                 />
                 <Marker position={DEFAULT_CENTER}>
                   <Popup>
-                    A pretty CSS3 popup. <br /> Easily customizable.
+                      the/experts.
+                      <br />
+                      <a href="https://the-experts.nl/career/" target="_blank">Come join us!</a>
                   </Popup>
                 </Marker>
               </>
