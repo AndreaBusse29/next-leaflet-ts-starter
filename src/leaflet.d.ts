@@ -1,7 +1,4 @@
 declare module 'leaflet' {
-  // Re-export existing types from the @types/leaflet package
-  export * from '@types/leaflet';
-
   // Add additional type definitions for components when used as React components
   import { FC, ReactNode } from 'react';
 
