@@ -3,7 +3,7 @@
 Jumpstart your new Next.js mapping project with Leaflet!
 
 ## ⚡ Quick Deploy
-[![Deploy with Vercel Now](https://zeit.co/button)](https://vercel.com/import/project?template=https://github.com/colbyfayock/next-leaflet-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/colbyfayock/next-leaflet-starter)
+[![Deploy with Vercel Now](https://zeit.co/button)](https://vercel.com/import/project?template=https://github.com/AndreaBusse29/next-leaflet-ts-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AndreaBusse29/next-leaflet-ts-starter)
 
 
 ## 🧰 What This Includes

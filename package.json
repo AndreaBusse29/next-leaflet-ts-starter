@@ -1,9 +1,8 @@
 {
-  "name": "next-leaflet-starter",
-  "homepage": "https://next-leaflet-starter.netlify.app",
-  "version": "0.1.0",
+  "name": "next-leaflet-ts-starter",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "author": "Andrea Busse <andrea.busse29@gmail.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
